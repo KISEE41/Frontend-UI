@@ -1,0 +1,60 @@
+.header__icons>figure {
+    display: inline-block;
+}
+
+.header__icons {
+    display: flex;
+    justify-content: right;
+    padding: 22px 0;
+}
+
+.twitter-icon {
+    margin-right: 4.8rem;
+}
+
+.header__nav {
+    height: 76.8rem;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 6rem;
+}
+
+.header__nav .container>* {
+    margin-left: -60px;
+}
+
+.header__nav__main {
+    height: 15.2rem;
+    width: 144rem;
+}
+
+.nav__main__logo {
+    margin: 69px 0 37px 0;
+}
+
+.logo {
+    width: 148px;
+    height: 45px;
+}
+
+.nav__main__navbar {
+    margin: 80px 0 52px 0;
+}
+
+.navbar {
+    display: flex;
+    color: var(--nav-menu-color);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.navbar>li:not(:last-child) {
+    margin-right: 5.9rem;
+}
+
+.navbar>li:hover {
+    color: var(--color-primary);
+    transition: 0.5s ease;
+}

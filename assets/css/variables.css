@@ -1,0 +1,16 @@
+:root {
+    /* For layout */
+    --container-width: 1440px;
+
+    --side-margin-XL: 120px;
+    --side-margin-L: 88px;
+    --side-margin-M: 64px;
+    --side-margin-S: 48px;
+    --side-margin-XS: 32px;
+
+    /* Colors */
+    /*Dark Blue*/
+    --color-primary: #003A92;
+    /*Dark Grey */
+    --color-nav-menu: #3C3C3C;
+}

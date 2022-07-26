@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+    content: "";
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    /*1rem=10px; 10/16=62.5%*/
+}
+
+body {
+    background-color: #F2EFEE;
+    box-sizing: border-box;
+    font-family: 'GalaxieCopernicus', 'Inter', sans-serif;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

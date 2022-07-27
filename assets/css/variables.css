@@ -16,7 +16,9 @@
     /*Dark Grey */
     --color-nav-menu: #3C3C3C;
     /* mid gray color */
-    --color-mid-gray: #C4C4C4
+    --color-mid-gray: #C4C4C4;
+    /* GretPurp */
+    --color-date: #74788A;
 }
 
 /* For XL */

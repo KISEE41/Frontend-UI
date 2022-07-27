@@ -1,3 +1,26 @@
+.header {
+    overflow: hidden;
+    height: 110rem;
+}
+
+@media screen and (max-width: 62em) {
+    .header {
+        height: 116rem;
+    }
+}
+
+@media screen and (max-width: 49.0625em) {
+    .header {
+        height: 116rem;
+    }
+}
+
+@media screen and (max-width: 23.4375em) {
+    .header {
+        height: 90rem;
+    }
+}
+
 .header__icons>figure {
     display: inline-block;
 }
@@ -20,7 +43,8 @@
 
 .header__main {
     background-color: #FFFFFF;
-    height: 768px;
+    height: 76.8rem;
+    /* width: calc(100vw - 60px); */
     position: relative;
     left: 60px;
 }
@@ -33,6 +57,7 @@
 @media screen and (max-width: 62em) {
     .header__main {
         left: 16px;
+        /* width: calc(100vw - 16px); */
     }
 
     .header__main>.container {
@@ -97,6 +122,7 @@
 
 .banner__text {
     margin-top: 40px;
+    position: relative;
 }
 
 .banner__text>h1 {
@@ -121,7 +147,13 @@
 
     .btn {
         position: relative;
-        margin-top: 2rem;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 59.375em) {
+    .banner__text {
+        margin-top: 20px;
     }
 }
 
@@ -165,5 +197,70 @@
 
     .btn .right-arrow {
         padding: 12px;
+    }
+}
+
+.banner__image {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -285px;
+    position: relative;
+    z-index: 100;
+}
+
+@media screen and (max-width: 82.5em) {
+    .banner__image {
+        margin-top: -200px;
+    }
+
+    .banner__image>img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 62em) {
+    .banner__image {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 45.75em) {
+    .banner__image {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 28em) {
+    .header__main {
+        height: 690px;
+    }
+
+    .banner__image {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 23.4375em) {
+    .header__main {
+        height: 450px;
+    }
+
+    .banner__image {
+        margin-top: 0px;
+        height: 195px;
+    }
+
+    .banner__image>img {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 104.6875em) {
+    .header__main {
+        height: 785px;
+    }
+
+    .banner__image {
+        justify-content: center;
     }
 }

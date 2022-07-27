@@ -1,7 +1,6 @@
 *,
 *::after,
 *::before {
-    content: "";
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -28,15 +27,15 @@ html {
 
 @media screen and (min-width: 105em) {
     html {
-        /* 75% = 12px */
-        font-size: 75%;
+        /* 75% = 11px */
+        font-size: 68.75%;
     }
 }
 
 body {
     background-color: #F2EFEE;
     box-sizing: border-box;
-    overflow: hidden;
+    height: 200vh;
     font-family: 'Galaxie Copernicus', 'Inter', sans-serif;
 }
 
@@ -47,4 +46,8 @@ ul>li {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+section {
+    margin-top: var(--gutter);
 }

@@ -8,9 +8,48 @@
     --side-margin-S: 48px;
     --side-margin-XS: 32px;
 
+    --gutter: 60px;
+
     /* Colors */
     /*Dark Blue*/
     --color-primary: #003A92;
     /*Dark Grey */
     --color-nav-menu: #3C3C3C;
+    /* mid gray color */
+    --color-mid-gray: #C4C4C4
+}
+
+/* For XL */
+@media screen and (min-width: 75em) {
+    :root {
+        --gutter: 60px;
+    }
+}
+
+/* For L(1200-992px) */
+@media screen and (max-width: 75em) {
+    :root {
+        --gutter: 44px;
+    }
+}
+
+/* For M(991-786) */
+@media screen and (max-width: 62em) {
+    :root {
+        --gutter: 32px;
+    }
+}
+
+/* For S(785-576px) */
+@media screen and (max-width: 49.0625em) {
+    :root {
+        --gutter: 24px;
+    }
+}
+
+/* For XS(576-375px)*/
+@media screen and (max-width: 35.9375em) {
+    :root {
+        --gutter: 16px;
+    }
 }

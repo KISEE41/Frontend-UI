@@ -12,10 +12,32 @@ html {
     /*1rem=10px; 10/16=62.5%*/
 }
 
+@media screen and (max-width: 62em) {
+    html {
+        /* 56.25% = 9px */
+        font-size: 56.25%;
+    }
+}
+
+@media screen and (max-width: 36em) {
+    html {
+        /* 50% = 8px */
+        font-size: 50%;
+    }
+}
+
+@media screen and (min-width: 105em) {
+    html {
+        /* 75% = 12px */
+        font-size: 75%;
+    }
+}
+
 body {
     background-color: #F2EFEE;
     box-sizing: border-box;
-    font-family: 'GalaxieCopernicus', 'Inter', sans-serif;
+    overflow: hidden;
+    font-family: 'Galaxie Copernicus', 'Inter', sans-serif;
 }
 
 ul>li {

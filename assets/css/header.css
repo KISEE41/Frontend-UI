@@ -12,19 +12,35 @@
     margin-right: 4.8rem;
 }
 
+@media screen and (max-width: 23.4375em) {
+    .twitter-icon {
+        margin-right: 2.58rem;
+    }
+}
+
 .header__main {
     background-color: #FFFFFF;
     height: 768px;
     position: relative;
-    left: 6rem;
+    left: 60px;
 }
 
 .header__main>.container {
     position: relative;
-    left: -6rem;
+    left: -60px;
 }
 
-.header__main__container {
+@media screen and (max-width: 62em) {
+    .header__main {
+        left: 16px;
+    }
+
+    .header__main>.container {
+        left: -16px;
+    }
+}
+
+.header__main__nav {
     height: 152px;
 }
 
@@ -52,4 +68,102 @@
     color: var(--color-primary);
     transform: scale(1.02);
     transition: 0.1s linear;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 68.75em) {
+    .nav-menu>.nav-item:not(:last-child) {
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 59.375em) {
+    .header__logo {
+        margin: 36px 0;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+        margin: 46px 0;
+    }
+}
+
+.banner__text {
+    margin-top: 40px;
+}
+
+.banner__text>h1 {
+    width: 885px;
+    /* height: 210px; */
+    color: var(--color-primary);
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid var(--color-mid-gray);
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 81.25em) {
+    .banner__text>h1 {
+        width: 100%;
+    }
+
+    .btn {
+        position: relative;
+        margin-top: 2rem;
+    }
+}
+
+.btn>a {
+    display: flex;
+    text-align: center;
+    transform: translateY(-1px);
+}
+
+.btn .B1 {
+    padding: 23px 24px;
+    border-right: 1px solid var(--color-mid-gray);
+}
+
+.btn .right-arrow {
+    padding: 24px;
+}
+
+.btn:hover .B1 {
+    color: var(--color-primary);
+}
+
+.btn:hover .right-arrow {
+    animation: rightArrowAnimation 0.8s linear infinite;
+}
+
+@keyframes rightArrowAnimation {
+    from {
+        transform: translateX(-1px);
+    }
+
+    to {
+        transform: translateX(1px);
+    }
+}
+
+@media screen and (max-width: 23.4375em) {
+    .btn .B1 {
+        padding: 13px;
+    }
+
+    .btn .right-arrow {
+        padding: 12px;
+    }
 }

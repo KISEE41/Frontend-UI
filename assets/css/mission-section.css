@@ -1,0 +1,141 @@
+.section__mission {
+    position: relative;
+    color: #FFFFFF;
+    padding: var(--gutter) 0;
+}
+
+.section__mission--background {
+    width: 1380px;
+    height: 700px;
+    background-color: var(--color-blood-red);
+    margin-left: -120px;
+}
+
+@media screen and (max-width: 105em) {
+    .section__mission--background {
+        width: calc(100vw - var(--gutter));
+    }
+}
+
+@media screen and (max-width: 62em) {
+    .section__mission--background {
+        width: calc(100vw - var(--gutter)/10);
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 49.125em) {
+    .section__mission--background {
+        width: calc(100vw + 2 * var(--gutter));
+    }
+}
+
+@media screen and (max-width: 36em) {
+    .section__mission--background {
+        width: calc(100vw + 5 * var(--gutter));
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 23.4375em) {
+    .section__mission--background {
+        height: 401px;
+    }
+}
+
+@media screen and (min-width: 105.01em) {
+    .section__mission--background {
+        width: calc(var(--container-width) + 120px);
+    }
+}
+
+.section__mission__text {
+    position: absolute;
+    top: calc(80px + var(--gutter));
+}
+
+.section__mission__text>h2 {
+    margin-top: 32px;
+    width: 780px;
+}
+
+.section__mission__text>.P1 {
+    margin-top: 20px;
+    width: 570px;
+}
+
+@media screen and (max-width: 23.4375em) {
+    .section__mission__text {
+        top: calc(40px + var(--gutter));
+    }
+
+    .section__mission__text>h2 {
+        margin-top: 16px;
+    }
+
+    .section__mission__text>.P1 {
+        margin-top: 8px;
+    }
+}
+
+.section__mission__image {
+    position: absolute;
+    top: calc(417px + var(--gutter));
+    margin-left: -120px;
+}
+
+.section__mission__image>img {
+    width: 100%;
+}
+
+@media screen and (max-width: 90em) {
+    .section__mission__image {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 62em) {
+
+    .section__mission__image {
+        width: 96%;
+    }
+
+    .section__mission__text>h2,
+    .section__mission__text>.P1 {
+        width: 90% !important;
+    }
+
+    .section__mission__image {
+        top: 100%;
+        transform: translateY(-50%);
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 48.5em) {
+    .section__mission__image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 36em) {
+    .section__mission__image {
+        width: 105%;
+    }
+}
+
+@media screen and (max-width: 30.5em) {
+    .section__mission--background {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 23.4375em) {
+    .section__mission--background {
+        height: 400px;
+    }
+
+    .section__mission__image {
+        width: 415px;
+    }
+}

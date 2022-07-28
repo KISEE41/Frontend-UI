@@ -141,7 +141,7 @@
 
     .news__card {
         display: flex;
-        flex-wrap: none;
+        flex-wrap: nowrap;
         margin-top: var(--gutter);
     }
 

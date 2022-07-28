@@ -135,7 +135,7 @@
         height: 400px;
     }
 
-    .section__mission__image {
-        width: 415px;
+    .section__mission__image>img {
+        max-width: 100%;
     }
 }

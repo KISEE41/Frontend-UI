@@ -1,6 +1,6 @@
 .header {
     overflow: hidden;
-    height: 110rem;
+    /* height: 110rem; */
 }
 
 @media screen and (max-width: 62em) {

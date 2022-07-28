@@ -3,13 +3,31 @@
     padding: var(--gutter) 0;
 }
 
+@media screen and (max-width: 90em) {
+    .section__news {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 62em) {
+    .section__news {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 36em) {
+    .section__news {
+        height: 550px;
+    }
+}
+
 .section__news>.container {
     position: relative;
 }
 
 .btn-news {
     display: flex;
-    width: 140px;
+    /* width: 140px; */
     color: var(--color-nav-menu);
     padding-bottom: 14px;
     border-bottom: 1px solid var(--color-mid-gray);

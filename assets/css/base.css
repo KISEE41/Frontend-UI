@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
     /*1rem=10px; 10/16=62.5%*/
 }
 
@@ -36,6 +37,8 @@ body {
     background-color: #F2EFEE;
     box-sizing: border-box;
     font-family: 'Galaxie Copernicus', 'Inter', sans-serif;
+    /* height: 100vh;
+    overflow: hidden; */
 }
 
 ul>li {

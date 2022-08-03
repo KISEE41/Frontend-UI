@@ -67,4 +67,14 @@
     .footer__nav__icons {
         transform: translateY(-80px);
     }
+
+    .footer__nav__menu {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 20.125em) {
+    .footer__nav__icons {
+        transform: translateY(-250px);
+    }
 }

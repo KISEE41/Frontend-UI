@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./assets/css/layout.css">
 
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/XS-header.css">
     <link rel="stylesheet" href="./assets/css/news-section.css">
     <link rel="stylesheet" href="./assets/css/mission-section.css">
     <link rel="stylesheet" href="./assets/css/beneficiaries-section.css">
@@ -27,6 +28,39 @@
 
 <body>
     <header class="header">
+        <div class="XS-header__main">
+            <div class="container">
+                <div class="XS-header__main__nav">
+                    <img class="XS-header__main__nav__logo" src="./assets/images/dummy-logo-white.png"
+                        alt="white color logo">
+                    <img id="closeBtn" src="./assets/images/Close.png" alt="close icon">
+                </div>
+                <div class="XS-header__main__nav-item">
+                    <ul class="nav-container">
+                        <li class="P2 nav-item">
+                            <span style="opacity: 0.2;">Founders</span>
+                            <ul class="nav-item__subitem">
+                                <li><a href="#">Maria Kenter</a></li>
+                                <li><a href="#">Roger Septimus</a></li>
+                            </ul>
+                        </li>
+                        <li class="P2 nav-item">
+                            <a href="#">Beneficiaries</a>
+                        </li>
+                        <li class="P2 nav-item">
+                            Scholarships
+                            <ul class="nav-item__subitem">
+                                <li><a href="#">Sed ut tincidunt euismod malesuada</a></li>
+                                <li><a href="#">Nunc, sit in varius pulvinar</a></li>
+                            </ul>
+                        </li>
+                        <li class="P2 nav-item"><a href="#">Press</a></li>
+                        <li class="P2 nav-item"><a href="#">Contact</a></li>
+                        <li class="P2 nav-item"><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="header__icons">
                 <figure class="twitter-icon">
@@ -49,14 +83,14 @@
                     </figure>
                     <nav class="header__navbar float-right">
                         <ul class="nav-menu">
-                            <li class="nav-item"><a href="#">Founders</a></li>
-                            <li class="nav-item"><a href="#">Beneficiaries</a></li>
+                            <li class="nav-item"><a href="#Founders">Founders</a></li>
+                            <li class="nav-item"><a href="#Beneficiaries">Beneficiaries</a></li>
                             <li class="nav-item"><a href="#">Scholarships</a></li>
                             <li class="nav-item"><a href="#">Press</a></li>
                             <li class="nav-item"><a href="#">Blog</a></li>
                             <li class="nav-item"><a href="#">Contact</a></li>
                         </ul>
-                        <figure class="hamburger">
+                        <figure class="hamburger" id="hamburgerBtn">
                             <img src="./assets/images/Burger.png" alt="Hamburger Menu">
                         </figure>
                     </nav>
@@ -165,7 +199,7 @@
             </div>
         </section>
 
-        <section class="section__beneficiaries">
+        <section class="section__beneficiaries" id="Beneficiaries">
             <div class="container">
                 <h5>BENEFICIARIES</h5>
                 <div class="section__beneficiaries__card">
@@ -215,7 +249,7 @@
             </div>
         </section>
 
-        <section class="section__founders">
+        <section class="section__founders" id="Founders">
             <div class="container">
                 <h5>THE FOUNDERS</h5>
                 <div class="section__founders__main">
@@ -266,8 +300,8 @@
             <div class="footer__nav clearfix">
                 <div class="footer__nav__menu float-left">
                     <ul class="footer__nav__features">
-                        <li class="P2"><a href="#">Founders</a></li>
-                        <li class="P2"><a href="#">Beneficiaries</a></li>
+                        <li class="P2"><a href="#Founders">Founders</a></li>
+                        <li class="P2"><a href="#Beneficiaries">Beneficiaries</a></li>
                         <li class="P2"><a href="#">Scholarships</a></li>
                     </ul>
                     <ul class="footer__nav__abouts">
@@ -290,6 +324,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>

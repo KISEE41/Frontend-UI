@@ -7,7 +7,7 @@ const XS_nav = document.getElementsByClassName('XS-header__main')[0];
 
 hamburgerBtn.addEventListener('click', () => {
     body.style.overflow = 'hidden';
-    body.style.height = '100vh';
+    body.style.minHeight = '100vh';
 
     XS_nav.style.display = 'block';
 });

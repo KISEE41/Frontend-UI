@@ -1,7 +1,7 @@
 .XS-header__main {
     width: 100%;
+    min-height: 100vh;
     color: #FFFFFF;
-    overflow-y: hidden;
     top: 0;
     left: 0;
     position: fixed;

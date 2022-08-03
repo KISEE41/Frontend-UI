@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./assets/css/mission-section.css">
     <link rel="stylesheet" href="./assets/css/beneficiaries-section.css">
     <link rel="stylesheet" href="./assets/css/section-founder.css">
+    <link rel="stylesheet" href="./assets/css/gallery-section.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 
     <title>Frontend UI</title>
 </head>
@@ -231,13 +233,60 @@
                         </a>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <section class="section__gallery">
+            <div class="container">
+                <h5>GALLERY</h5>
+                <ul class="gallary__cards">
+                    <li class="g-card g-card1">
+                        <img src="./assets/images/gallery1.jpg" alt="gallary image">
+                        <div class="P2 g-card__description">Caption lorem ipsum dolor sit amet</div>
+                    </li>
+                    <li class="g-card g-card2">
+                        <img src="./assets/images/gallary2.jpg" alt="gallary image">
+                        <div class="P2 g-card__description">Caption lorem ipsum dolor sit amet</div>
+                    </li>
+                    <li class="g-card g-card3">
+                        <img src="./assets/images/gallary3.jpg" alt="gallary image">
+                        <div class="P2 g-card__description">Caption lorem ipsum dolor sit amet</div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <figure class="footer__logo">
+                <img src="./assets/images/logo-white.svg" alt="company logo">
+            </figure>
+            <div class="footer__divider"></div>
+            <div class="footer__nav clearfix">
+                <div class="footer__nav__menu float-left">
+                    <ul class="footer__nav__features">
+                        <li class="P2"><a href="#">Founders</a></li>
+                        <li class="P2"><a href="#">Beneficiaries</a></li>
+                        <li class="P2"><a href="#">Scholarships</a></li>
+                    </ul>
+                    <ul class="footer__nav__abouts">
+                        <li class="P2"><a href="#">Press</a></li>
+                        <li class="P2"><a href="#">Blog</a></li>
+                        <li class="P2"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <figure class="footer__nav__icons float-right">
+                    <img class="twitter-icon" src="./assets/icons/Twitter.svg" alt="twitter icon">
+                    <img class="linked-icon" src="./assets/icons/Linkedin.svg" alt="linkedin icon">
+                </figure>
+            </div>
+            <div class="footer__copyright clearfix">
+                <div class="privacy-text P2 float-left">Privacy Policy</div>
+                <div class="P2 float-left">Terms & Conditions</div>
+                <div class="P2 float-right">&copy; 2021 Company Name. All rights reserved.</div>
+            </div>
+        </div>
     </footer>
 </body>
 

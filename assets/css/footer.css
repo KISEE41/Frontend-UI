@@ -34,10 +34,37 @@
     margin-right: 5.9rem;
 }
 
-.privacy-text {
+.privacy-text,
+.privacy-and-terms {
     margin-right: 5.8rem;
 }
 
 .footer ul>li:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 62em) {
+
+    .footer__nav__features,
+    .footer__nav__abouts {
+        display: block;
+    }
+
+    .footer__nav__features>li:not(last-child),
+    .footer__nav__abouts>li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 44.375em) {
+    .copyright-text {
+        float: left;
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 44.375em) {
+    .footer__nav__icons {
+        transform: translateY(-80px);
+    }
 }

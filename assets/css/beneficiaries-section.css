@@ -57,6 +57,7 @@
 
 .b-card {
     width: 25.5rem;
+    margin-right: 6rem;
 }
 
 @media screen and (min-width: 105em) {
@@ -65,16 +66,17 @@
     }
 }
 
-.b-card {
-    margin-right: 6rem;
+.b-card:hover {
+    transform: scale(1.01);
+    transition: 0.2s linear;
 }
 
 .section__beneficiaries h5 {
-    color: var(--color-primary);
+    color: var(--color-dark-blue);
 }
 
 .b-card__description>.P1 {
-    color: var(--color-nav-menu);
+    color: var(--color-dark-grey);
 }
 
 .b-card__image> {

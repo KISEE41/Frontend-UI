@@ -90,7 +90,7 @@
 }
 
 .nav-menu>.nav-item:hover {
-    color: var(--color-primary);
+    color: var(--color-dark-blue);
     transform: scale(1.02);
     transition: 0.1s linear;
 }
@@ -128,7 +128,7 @@
 .banner__text>h1 {
     width: 885px;
     /* height: 210px; */
-    color: var(--color-primary);
+    color: var(--color-dark-blue);
 }
 
 .btn {
@@ -173,7 +173,7 @@
 }
 
 .btn:hover .B1 {
-    color: var(--color-primary);
+    color: var(--color-dark-blue);
 }
 
 .btn:hover .right-arrow {
